@@ -1,0 +1,28 @@
+.lc {
+    float: right; margin: 30px;
+}
+.menu {
+    height: 25px;
+    color: #30688A;
+    background-color: #F2A741;
+    text-align: center;
+}
+.sp1 {
+    position: relative;
+    left: -50px;
+}
+.sp3 {
+    position: relative;
+    right: -50px;
+}
+.l1 {
+    position: relative;
+    left: -25px;
+}
+.l2 {
+    position: relative;
+    right: -25px;
+}
+img {
+    margin: 10px;
+}
