@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> halli galli </title>
+        <style>
+            footer { display: inline; }
+            tbody {
+                table-layout:fixed;
+            }
+            .th1 {
+                width: 300px;
+                height: 250px;
+                margin: 0 0 0 0;
+            }
+            .th2 {
+                width: 100px;
+                height: 25px;
+                color:white;
+                background-color:#30688A;
+                padding: 0;
+                border:10px solid white;
+            }
+            h3 {
+                color:#30688A;
+            }
+            #price {
+                font-size: 15px;
+                color:#F2A741;
+                margin: 10px 0 0 0;
+            }
+            #priceP {
+                font-size: 15px;
+                color:darkgrey;
+                margin: 0 0 0 0;
+            }
+            .buy {
+                text-align: center;
+            }
+            #detail { width: 800px;}
+            h2 {
+                color:#F2A741;
+                margin: 50px 0 0 0;
+            }
+            #in {
+                list-style-type: none;
+                text-align: center;
+                position:relative;
+                left: -15px;
+            }
+            .bottomMenu1 {
+                text-align:left;
+            }
+        </style>
+        <link type="text/css" rel="stylesheet" href="/hw06/hw06Style.css"></link>
+    </head>
+    <body>
+        <a href="/hw06/hw06.html"><img src="/hw06/img/withboard.png" width="160" height="90" alt="위드보드"></a>
+        <ul class="topMenu">
+            <li class="li1"><a href="/hw06/login.html">Sign In | </a></li>
+            <li class=><a href="/hw06/mycart.html">My cart</a></li>
+        </ul>
+        <div id="menu">
+            <span id="sp1">
+              <a href="/hw06/menu01.html"><b>About us</b></a>
+            </span>
+            <span id="l1"> | </span>
+            <span id="sp2">
+                <a href="/hw06/menu02.html"><b>BoardGame</b></a>
+            </span>
+            <span id="l2"> | </span>
+            <span id="sp3">
+                <a href="/hw/hw07/hw07.html"><b>Community</b></a>
+            </span>
+            <span id="l3"> | </span>
+            <span id="sp4">
+                <a href="/hw06/menu03.html"><b>Service</b></a>
+            </span>
+        </div>
+        <hr>
+        <center>
+        <section>
+            <article>
+                <table border="0">
+                    <tbody>
+                        <tr>
+                            <td rowspan="2"><img src="/hw06/img/hrgr.jpg" width="300" height="300"></td>
+                            <th class="th1" colspan="2"><h3>할리갈리</h3><p id="price">15,000원</p><p id="priceP">배송비 3,000원</p><br>
+                            수량 <input type="number" value="수량"></th>
+                        </tr>
+                        <tr>
+                            <td class="th2"><p class="buy">구매</p></td>
+                            <td class="th2"><p class="buy">찜</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <hr id="detail">
+        <h2>상세정보</h2><br><br><br>
+        <h3>게임 소개</h3>
+        <p>과일이 그려진 카드를 한 장씩 바닥에 내려놓으며<br>
+        과일이 5개가 되는 순간 종을 치면 승리하는 게임이다.</p><br><br><br>
+        <h3>구성품</h3>
+        <ul id="in">
+            <li>과일카드 56장</li>
+            <li>종 1개</li>
+        </ul><br><br><br>
+        <h3>게임 방법</h3>
+        <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/0q0yClzjADk" frameborder="1"></iframe><br><br><br>
+        </center>
+    <hr>
+        <footer>
+        <article>
+            <div style="float:left;">
+            <ul class="bottomMenu1">
+                <li>(주) 위드보드</li>
+                <li>대표이사 : 김지은</li>
+                <li>주소 : 서울시 강남구 어딘가로 21</li>
+                <li>TEL : 02 - 1234 - 5678</li>
+                <li id="copyright">2021 WithBoard Boardgame Company. All Rights Reserved.</li>
+            </ul>
+            </div>
+        </article>
+        <article>
+            <div style="float:right;">
+            <ul class="bottomMenu2">
+                <li id="serviceC">고객센터<br>1588 - 8888</li>
+                <li>상담시간 : 09:00 - 18:00</li>
+                <li>매주 일요일, 공휴일 휴무</li>
+            </ul>
+            </div>
+        </article>
+        </footer>
+    </body>
+</html>

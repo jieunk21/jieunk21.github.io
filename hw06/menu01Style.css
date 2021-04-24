@@ -1,0 +1,14 @@
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #30688A;
+    margin: 50px 0 50px 0;
+}
+.p1 {
+    font-size: 25px;
+    color:#30688A;
+    margin: 50px 0 0 0;
+}
+.p2 {
+    font-size: 15px;
+    margin: 15px 0 50px;
+}
